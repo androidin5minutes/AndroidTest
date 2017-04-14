@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            app:cardCornerRadius="5dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/imageView_thumbnail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_play" />
+
+                <TextView
+                    android:id="@+id/textView_video_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Setting up the Android Emulator: An Android Tool Time Deep Dive"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+                <TextView
+                    android:id="@+id/textView_published_at"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginTop="4dp"
+                    android:text="Published on Dec 7, 2016"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/description"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="bla bla"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/default_language"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView_default_language"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="en"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/default_audio_language"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView_default_audio_language"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="en"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/live_broadcast_content"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView_live_broadcast_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="en"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead" />
+
+                <TextView
+                    android:id="@+id/textView_tags"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="en"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="loading video details..." />
+
+    </LinearLayout>
+
+</LinearLayout>

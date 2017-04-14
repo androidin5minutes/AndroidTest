@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Android Test</string>
+    <string name="published_on">Published on %s</string>
+    <string name="default_language">Default language:</string>
+    <string name="default_audio_language">Default audio language:</string>
+    <string name="live_broadcast_content">Live broadcast content:</string>
+    <string name="tags">tags:\n%s</string>
+    <string name="description">Description:</string>
+</resources>
